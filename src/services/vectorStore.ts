@@ -18,7 +18,7 @@ export class VectorStore {
   }
 
   private async loadDocuments(): Promise<void> {
-    const docsPath = path.join(__dirname, "../documents");
+    const docsPath = path.join(__dirname, "../../src/documents");
 
     // Check if documents folder exists
     if (!(await fs.pathExists(docsPath))) {
