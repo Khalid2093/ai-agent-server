@@ -43,7 +43,7 @@ A TypeScript-based AI agent server featuring contextual RAG (Retrieval-Augmented
 1. **Clone and install dependencies:**
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Khalid2093/ai-agent-server.git
 cd ai-agent-server
 npm install
 ```
@@ -269,7 +269,6 @@ npm start
 gemini_API_KEY=<your_key>
 WEATHER_API_KEY=<optional>
 PORT=3000
-NODE_ENV=production
 ```
 
 ## 🧪 Testing Examples
