@@ -1,13 +1,14 @@
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
 import { AgentService } from "./services/agentService";
 import { AgentMessage } from "./types";
 
-dotenv.config();
+import dotenv from "dotenv";
+
+dotenv.config({ path: ".env" });
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
