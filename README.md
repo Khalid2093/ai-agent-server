@@ -11,10 +11,10 @@ A TypeScript-based AI agent server featuring contextual RAG (Retrieval-Augmented
                                                          │
                        ┌─────────────────────────────────┼─────────────────────────────────┐
                        │                                 ▼                                 │
-                       │                    ┌─────────────────────┐                      │
-                       │                    │   Memory Manager    │                      │
-                       │                    │  (Session Storage)  │                      │
-                       │                    └─────────────────────┘                      │
+                       │                    ┌─────────────────────┐                        │
+                       │                    │   Memory Manager    │                        │
+                       │                    │  (Session Storage)  │                        │
+                       │                    └─────────────────────┘                        │
                        │                                 │                                 │
                        ▼                                 ▼                                 ▼
               ┌─────────────────┐           ┌─────────────────────┐           ┌─────────────────┐
@@ -25,8 +25,8 @@ A TypeScript-based AI agent server featuring contextual RAG (Retrieval-Augmented
                        ▼                                 ▼
               ┌─────────────────┐           ┌─────────────────────┐
               │   Embeddings    │           │     Plugins:        │
-              │  (text-embed-   │           │  • Weather Plugin   │
-              │   3-small)      │           │  • Math Plugin      │
+              │  (gemini-embed  │           │  • Weather Plugin   │
+              │   ding-001)     │           │  • Math Plugin      │
               └─────────────────┘           └─────────────────────┘
 ```
 
